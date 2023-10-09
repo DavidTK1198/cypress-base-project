@@ -10,6 +10,5 @@ describe('Search something on Google ', { tags: '@sanity' },() => {
 
     it('Search ChatGPT on Google', () => {
         googlePage.typeAndSearch('ChatGPT');
-        cy.dataCy("")
     });
 })
