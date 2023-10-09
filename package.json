@@ -1,0 +1,21 @@
+{
+  "name": "cypress-base-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cypress:test": "cypress open",
+    "cypress:sanity": "cypress run --env grepTags=@sanity,grepFilterSpecs=true"
+  },
+  "keywords": [
+    "cypress",
+    "typescript"
+  ],
+  "author": "David Barrientos Araya",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/grep": "^4.0.0",
+    "cypress": "^12.13.0",
+    "typescript": "^5.1.3"
+  }
+}
