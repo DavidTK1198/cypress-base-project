@@ -1,5 +1,5 @@
-# Cypress Sample
-Cypress automation framework with Typescript.
+# Cypress Base Automation Framework
+Cypress automation framework with Typescript ready to use.
 
 
 ## Setup:
